@@ -39,6 +39,13 @@ Edit file konfigurasi ProFTPD untuk menyesuaikan pengaturan sesuai kebutuhan:
 ```bash
 sudo nano /etc/proftpd/proftpd.conf
 ```
+Lalu aktifkan command berikut:
+```bash
+ServerName "namaserver"
+ServerType standalone
+Port 21
+PassivePorts 10000 31000
+```
 
 Setelah melakukan perubahan, simpan file dan mulai ulang layanan ProFTPD untuk menerapkan konfigurasi baru:
 ```bash
