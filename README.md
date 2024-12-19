@@ -3,7 +3,7 @@
 Nama kelompok : \
 Alfi Mifta Nurhakim  - 233040013 \
 Aufa Ramadhan        - 233040028 \
-I Made Surya Kartika - 233040034 \
+I Made Surya Kartika - 233040034 
 
 Panduan ini memberikan langkah-langkah untuk menyiapkan server FTP menggunakan ProFTPD di sistem Linux.
 
