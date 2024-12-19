@@ -79,7 +79,7 @@ Untuk memastikan komunikasi dengan server FTP berjalan lancar, konfigurasikan fi
    sudo ufw status verbose
    ```
 ##
-# Tutorial Menggunakan FileZilla
+# ✨ Tutorial Menggunakan FileZilla ✨
 
 FileZilla adalah klien FTP yang populer untuk mengakses dan mengelola file di server FTP. Tutorial ini akan memandu Anda langkah demi langkah untuk menggunakannya.
 
