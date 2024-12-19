@@ -1,6 +1,6 @@
 # ✨ Menyiapkan Server FTP dengan ProFTPD ✨
 
-Nama kelompok : \
+## Anggota : \
 Alfi Mifta Nurhakim  - 233040013 \
 Aufa Ramadhan        - 233040028 \
 I Made Surya Kartika - 233040034 
