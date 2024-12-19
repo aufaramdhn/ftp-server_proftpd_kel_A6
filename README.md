@@ -79,5 +79,50 @@ Untuk memastikan komunikasi dengan server FTP berjalan lancar, konfigurasikan fi
    sudo ufw status verbose
    ```
 
-## 📝 Ringkasan
+# Tutorial Menggunakan FileZilla
+
+FileZilla adalah klien FTP yang populer untuk mengakses dan mengelola file di server FTP. Tutorial ini akan memandu Anda langkah demi langkah untuk menggunakannya.
+
+## Langkah-langkah
+
+### 1. 🔧 Unduh dan Instal FileZilla
+
+- **Untuk Windows/Mac**: 
+  Kunjungi [filezilla-project.org](https://filezilla-project.org) dan unduh versi terbaru.
+
+- **Untuk Linux**: 
+  Instal FileZilla melalui package manager:
+  ```bash
+  sudo apt install filezilla
+  ```
+
+### 2. 🔑 Sambungkan ke Server FTP
+
+1. Buka FileZilla.
+2. Masukkan informasi berikut:
+   - **Host**: Masukkan alamat IP server Anda.
+   - **Username**: Masukkan username pengguna FTP.
+   - **Password**: Masukkan password pengguna FTP.
+   - **Port**: Masukkan "21" (default FTP).
+3. Klik tombol **Quickconnect** untuk memulai koneksi.
+
+### 3. 🎯 Transfer File
+
+- **Navigasi**: Gunakan panel kiri untuk menjelajahi file lokal Anda dan panel kanan untuk file di server.
+- **Upload File**: Seret file dari panel kiri (lokal) ke panel kanan (server).
+- **Download File**: Seret file dari panel kanan (server) ke panel kiri (lokal).
+
+### 4. ⚖ Troubleshooting
+
+Jika gagal terhubung:
+
+- Periksa kembali informasi koneksi (alamat IP, username, password, dan port).
+- Pastikan firewall tidak memblokir koneksi FTP.
+- Verifikasi layanan ProFTPD aktif dengan perintah berikut:
+  ```bash
+  sudo systemctl status proftpd
+  ```
+
+## 📝 Kesimpulan ProFTPD & FileZilla
 Dengan mengikuti langkah-langkah ini, Anda telah menyiapkan dan mengonfigurasi server FTP menggunakan ProFTPD. Anda sekarang dapat mengakses server FTP menggunakan klien FTP, seperti FileZilla, dengan menghubungkan ke alamat IP server dan port 21. Pastikan Anda menguji konfigurasi dan mengamankan server sesuai kebutuhan untuk penggunaan produksi.
+
